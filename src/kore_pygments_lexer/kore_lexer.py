@@ -10,7 +10,7 @@ class KoreLexer(RegexLexer):
     """Lexer for the kore programming language."""
 
     name = 'kore'
-    aliases = ['korelang', 'kore-lang']
+    aliases = ['kore', 'korelang', 'kore-lang']
     filenames = ['*.kore']
 
     identifier = r'[a-zA-Z_]\w*'
